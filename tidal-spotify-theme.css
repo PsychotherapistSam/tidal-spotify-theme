@@ -1,236 +1,235 @@
 @font-face {
-    font-family: Circular;
-    font-style: normal;
-    font-weight: 100 900;
-    font-display: swap;
-    src: url('https://encore.scdn.co/fonts/CircularSp-Book-a00e99ef9996a3a157fb6b746856d04f.woff2') format('woff2');
-  }
-  
-  @font-face {
-    font-family: Circular Title;
-    font-style: normal;
-    font-weight: 100 900;
-    font-display: swap;
-    src: url('https://encore.scdn.co/fonts/CircularSpTitle-Black-4588c99025b967475c31695b0743dd1a.woff2') format('woff2');
-  }
-  
-  @font-face {
-    font-family: Circular Bold;
-    font-style: normal;
-    font-weight: 100 900;
-    font-display: swap;
-    src: url('https://encore.scdn.co/fonts/CircularSpTitle-Bold-b2586b06a2e1522e9d879d84c2792a58.woff2') format('woff2');
-  }
-  
-  * { font-family: Circular; }
-  
-  [id^="main"], .css-jr8ouw {
-  background-color: #121212;
-  border-radius: 12px;
-  }
-  
-  .sidebarWrapper {
-  background: black;
-  }
-  
-  section.section--PSIay {
-  background-color: #121212;
-  border-radius: 12px;
-  padding: 20px 0;
-  margin: 10px;
-  }
-  
-  .favorite--yK4ZG {
-  color: #1fdf64;
-  }
-  
-  .button--yO9Cd {
-  background-color: #161616;
-  }
-  
-  .header--vH7DE {
-  background-color: transparent;
-  }
-  
-  
-  .textHigh--qvNFM, .textMax--ADaW_ {
-  color: #1fdf64 !important;
-  }
-  
-  .backgroundHigh--lWh8K, .backgroundMax--YaXG4 {
-  color: #1fdf64 !important;
-  }
-  
-  .tableHeader--vmvWH {
-  border-bottom: 1px solid hsla(0, 0%, 100%, .1);
-  }
-  
-  .player--gAOQG.notFullscreen--xbpBL {
-  background-color: #000000;
-  }
-  
-  .playbackButton--H0rKE {
-  background-color: black;
-  border-radius: 50px;
-  filter: invert(1);
-  }
-  
-  .headerText--PHvCV {
-  font-size: 24px;
-  font-family: Circular Bold;
-  }
-  
-  .titleText--teWx_ {
-  font-size: 36px;
+  font-family: Circular;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('https://encore.scdn.co/fonts/CircularSp-Book-a00e99ef9996a3a157fb6b746856d04f.woff2') format('woff2');
+}
+
+@font-face {
   font-family: Circular Title;
-  }
-  
-  .tableRow--ZX5ab {
-  border-radius: 8px;
-  }
-  
-  
-  .tableRow--ZX5ab:hover {
-  background-color: #2a2a2a;
-  }
-  
-  .player--gAOQG button.withBackground[aria-checked=true] {
-  background: transparent;
-  color: #1fdf64;
-  }
-  
-  .contentArea--GbLqj {
-  padding: 0 10px 0 0;
-  border-radius: 12px !important; 
-  }
-  
-  .mainContainer--wQI7K {
-  background: black;
-  }
-  
-  .contextMenu--a963y {
-  background-color: #282828;
-  }
-  
-  .fillingBlock--bUReW .indicator--FsQzr {
-  color: white !important;
-  }
-  
-  .css-9na2r7 span {
-  display: none;
-  }
-  
-  .activeItem--kFIk0 {
-  color: #1fdf64;
-  }
-  
-  .item--ZrMxl:hover {
-  background-color: #404040;
-  }
-  
-  button.button--XV8ps.subtitle--dYfEG.css-1plfqwx.headerButtons--M3pyA.variantPrimary--pjymy {
-  width: 56px;
-  height: 56px;
-  border-radius: 50px;
-  background-color: #1fdf64 !important;
-  }
-  
-  .favorite--E0GIx {
-  color: #1fdf64;
-  }
-  
-  button.button--XV8ps.subtitle--dYfEG.css-1plfqwx.headerButtons--M3pyA {
-  background-color: transparent;
-  }
-  
-  .css-9na2r7 {
-  gap: 0px;
-  grid-auto-columns: 70px;
-  }
-  
-  svg.accentedIcon--avEQv {
-  color: #1fdf64 !important;
-  }
-  
-  [data-wave-color=textUrl] {
-  color: #1fdf64;
-  }
-  
-  .css-1pjj3ju img {
-  filter: blur(50px);
-  }
-  
-  body {
-  font-size: 15px;
-  }
-  
-  .css-6np8kg {
-  mask-image: none;
-  }
-  
-  .css-1ibt6cr {
-  background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 75%, rgba(18,18,18,0.3) 75%, rgba(18,18,18,1) 100%); !important;
-  }
-  
-  .css-tndjme {
-  margin-top: 8px;
-  }
-  
-  .resultsPageWrapper--FeuQD {
-  padding: 0;
-  }
-  
-  .container--TzYwi {
-  padding: 0 30px;
-  }
-  
-  .resultsContainer--P7KUc {
-  padding: 30px;
-  }
-  
-  .searchAndFeed--zgnP4 {
-  padding-right: 20px;
-  }
-  
-  #cornelius-module [class^="imageContainer"] img, [class^="albumImageContainer"] img {
-  border-radius: 8px !important;
-  }
-  
-  .button--XV8ps {
-  border-radius: 50px;
-  }
-  
-  .default--Jk2gQ {
-  max-width: 100% !important;
-  }
-  
-  .feed--BA4Uv {
-  max-width: 100% !important;
-  width: 96%;
-  }
-  
-  .player--gAOQG button:not(:disabled):focus-visible, .player--gAOQG button:not(:disabled):hover {
-  opacity: 1;
-  }
-  
-  .css-1tk08rl {
-  border-radius: 4px;
-  }
-  
-  .container--cl4MJ.searchFieldWithinSearchFieldWithPopover.searchField--fgDKc, button.button--XV8ps.subtitle--dYfEG.feedBell--XaJus.feedBell--q72cU.variantRounded--SkIGV  {
-  background: #00000030;
-  }
-  
-  .css-1072495 .artist-link a {
-  font-family: Circular Bold !important;
-  font-size: 16px;
-  }
-  
-  .enable-scrollbar-styles ::-webkit-scrollbar {
-  display: none;
-  }
-  
-  div.searchField--fgDKc:focus-within input, svg.icon--dd0Ta.icon--k3C4v.searchIcon--fbPpk {
-  color: white;
-  }
-  
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('https://encore.scdn.co/fonts/CircularSpTitle-Black-4588c99025b967475c31695b0743dd1a.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: Circular Bold;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('https://encore.scdn.co/fonts/CircularSpTitle-Bold-b2586b06a2e1522e9d879d84c2792a58.woff2') format('woff2');
+}
+
+* { font-family: Circular; }
+
+[id^="main"], .css-jr8ouw {
+background-color: #121212;
+border-radius: 12px;
+}
+
+.sidebarWrapper {
+background: black;
+}
+
+section.section--PSIay {
+background-color: #121212;
+border-radius: 12px;
+padding: 20px 0;
+margin: 10px;
+}
+
+.favorite--yK4ZG {
+color: #1fdf64;
+}
+
+.button--yO9Cd {
+background-color: #161616;
+}
+
+.header--vH7DE {
+background-color: transparent;
+}
+
+
+.textHigh--qvNFM, .textMax--ADaW_ {
+color: #1fdf64 !important;
+}
+
+.backgroundHigh--lWh8K, .backgroundMax--YaXG4 {
+color: #1fdf64 !important;
+}
+
+.tableHeader--vmvWH {
+border-bottom: 1px solid hsla(0, 0%, 100%, .1);
+}
+
+.player--gAOQG.notFullscreen--xbpBL {
+background-color: #000000;
+}
+
+.playbackButton--H0rKE {
+background-color: black;
+border-radius: 50px;
+filter: invert(1);
+}
+
+.headerText--PHvCV {
+font-size: 24px;
+font-family: Circular Bold;
+}
+
+.titleText--teWx_ {
+font-size: 36px;
+font-family: Circular Title;
+}
+
+.tableRow--ZX5ab {
+border-radius: 8px;
+}
+
+
+.tableRow--ZX5ab:hover {
+background-color: #2a2a2a;
+}
+
+.player--gAOQG button.withBackground[aria-checked=true] {
+background: transparent;
+color: #1fdf64;
+}
+
+.contentArea--GbLqj {
+padding: 0 10px 0 0;
+border-radius: 12px !important; 
+}
+
+.mainContainer--wQI7K {
+background: black;
+}
+
+.contextMenu--a963y {
+background-color: #282828;
+}
+
+.fillingBlock--bUReW .indicator--FsQzr {
+color: white !important;
+}
+
+.css-9na2r7 span {
+display: none;
+}
+
+.activeItem--kFIk0 {
+color: #1fdf64;
+}
+
+.item--ZrMxl:hover {
+background-color: #404040;
+}
+
+button.button--XV8ps.subtitle--dYfEG.css-1plfqwx.headerButtons--M3pyA.variantPrimary--pjymy {
+width: 56px;
+height: 56px;
+border-radius: 50px;
+background-color: #1fdf64 !important;
+}
+
+.favorite--E0GIx {
+color: #1fdf64;
+}
+
+button.button--XV8ps.subtitle--dYfEG.css-1plfqwx.headerButtons--M3pyA {
+background-color: transparent;
+}
+
+.css-9na2r7 {
+gap: 0px;
+grid-auto-columns: 70px;
+}
+
+svg.accentedIcon--avEQv {
+color: #1fdf64 !important;
+}
+
+[data-wave-color=textUrl] {
+color: #1fdf64;
+}
+
+.css-1pjj3ju img {
+filter: blur(50px);
+}
+
+body {
+font-size: 15px;
+}
+
+.css-6np8kg {
+mask-image: none;
+}
+
+.css-1ibt6cr {
+background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 75%, rgba(18,18,18,0.3) 75%, rgba(18,18,18,1) 100%); !important;
+}
+
+.css-tndjme {
+margin-top: 8px;
+}
+
+.resultsPageWrapper--FeuQD {
+padding: 0;
+}
+
+.container--TzYwi {
+padding: 0 30px;
+}
+
+.resultsContainer--P7KUc {
+padding: 30px;
+}
+
+.searchAndFeed--zgnP4 {
+padding-right: 20px;
+}
+
+#cornelius-module [class^="imageContainer"] img, [class^="albumImageContainer"] img {
+border-radius: 8px !important;
+}
+
+.button--XV8ps {
+border-radius: 50px;
+}
+
+.default--Jk2gQ {
+max-width: 100% !important;
+}
+
+.feed--BA4Uv {
+max-width: 100% !important;
+width: 96%;
+}
+
+.player--gAOQG button:not(:disabled):focus-visible, .player--gAOQG button:not(:disabled):hover {
+opacity: 1;
+}
+
+.css-1tk08rl {
+border-radius: 4px;
+}
+
+.container--cl4MJ.searchFieldWithinSearchFieldWithPopover.searchField--fgDKc, button.button--XV8ps.subtitle--dYfEG.feedBell--XaJus.feedBell--q72cU.variantRounded--SkIGV  {
+background: #00000030;
+}
+
+.css-1072495 .artist-link a {
+font-family: Circular Bold !important;
+font-size: 16px;
+}
+
+.enable-scrollbar-styles ::-webkit-scrollbar {
+display: none;
+}
+
+div.searchField--fgDKc:focus-within input, svg.icon--dd0Ta.icon--k3C4v.searchIcon--fbPpk {
+color: white;
+}
